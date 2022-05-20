@@ -3,6 +3,15 @@
 }
 
 body {
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  color: white;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 /****************** attribute section *********************/
