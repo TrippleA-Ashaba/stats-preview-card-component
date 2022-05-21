@@ -5,13 +5,70 @@
 body {
   background-color: hsl(233, 47%, 7%);
   color: hsl(0, 0%, 100%);
+  font-family: lexend deca;
+  font-size: 15px;
 }
 
 h1 {
   color: white;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 2rem;
 }
 p {
   color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Container */
+
+.main-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.content {
+  background-color: hsl(244, 38%, 16%);
+  /* height: 400px; */
+  /* margin-top: 5%; */
+}
+
+/* image */
+.image {
+  /* background-color: hsl(233, 47%, 7%); */
+  margin: 0;
+}
+#image {
+  padding: 0;
+}
+
+.title {
+  padding-left: 3rem;
+  /* border: 20px solid black; */
+}
+#title {
+  margin-top: 3rem;
+}
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+#text {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding-right: 10%;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Stat section */
+.stats {
+  text-transform: uppercase;
+}
+.stat-title {
+  font-size: 1.5rem;
+}
+.sect {
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 /****************** attribute section *********************/
